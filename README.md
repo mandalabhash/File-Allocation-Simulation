@@ -6,6 +6,7 @@ File Allocation Simulation Project for Academic fulfillment of Operating Systems
 Question/ Problem Statement
 
 Scenario: A company has a large number of employees who work on various projects and create different types of files such as documents, spreadsheets, and images. The company wants to implement a new file system that can manage the disk space efficiently and handle the high volume of file operations.
+
 Problem: Create a simulation program that simulates a file system for the company. The program should include a file system manager that uses a specific file allocation algorithm (e.g. Contiguous Allocation or Linked Allocation) to allocate space for files on a simulated disk. The students should also include a mechanism for deleting, renaming and moving files. The simulation should run for a set amount of time and record the average amount of fragmentation and the number of wasted disk blocks at the end of each time unit.
 Consider the following factors in their simulation:
 
