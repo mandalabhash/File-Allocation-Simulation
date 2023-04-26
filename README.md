@@ -8,11 +8,16 @@ Question/ Problem Statement
 Scenario: A company has a large number of employees who work on various projects and create different types of files such as documents, spreadsheets, and images. The company wants to implement a new file system that can manage the disk space efficiently and handle the high volume of file operations.
 Problem: Create a simulation program that simulates a file system for the company. The program should include a file system manager that uses a specific file allocation algorithm (e.g. Contiguous Allocation or Linked Allocation) to allocate space for files on a simulated disk. The students should also include a mechanism for deleting, renaming and moving files. The simulation should run for a set amount of time and record the average amount of fragmentation and the number of wasted disk blocks at the end of each time unit.
 Consider the following factors in their simulation:
+
 • The employees will be creating and editing different types of files (e.g. documents, spreadsheets, images) with varying file sizes.
+
 • The employees will be frequently adding and deleting files.
+
 • The company wants to minimize the amount of wasted disk space.
+
 Provide a report on their findings and observations, including the performance of the file system under different scenarios and the trade-offs involved in the different file allocation algorithms (Contiguous or Linked Allocation).
 Expected outcomes:
+
 1. File allocation: The program should demonstrate the ability to allocate space for files on a simulated disk using the chosen file allocation algorithm (e.g. Contiguous Allocation or Linked Allocation).
 The program should run the simulation for a set amount of time and display the results, including the average amount of fragmentation and the number of wasted disk blocks, at the end of each time unit.
 
